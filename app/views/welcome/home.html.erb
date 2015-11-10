@@ -7,7 +7,7 @@
   <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--1-col-tablet mdl-cell--hide-phone"></div>
   <div class="demo-content mdl-color--grey-100 mdl-shadow--4dp content mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
     <h1 class="my-info mdl-color--primary mdl-shadow--4dp" align="center"> {{myInfo.heading}} </h1> 
-    <p class="">{{myInfo.body}}</p>
+    <p align="center" class="">{{myInfo.body}}</p>
     <div class="frank-img"><img src="/frank.jpg" id="frank-img"></div>
       <div align="center">
         <span><a href="{{myInfo.github}}"><i class="hover fa fa-github-square fa-5x"></i></a></span>
@@ -23,7 +23,7 @@
   <div class="demo-content mdl-color--grey-100 mdl-shadow--4dp  mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
     <h2 class="crime-title mdl-color--accent mdl-shadow--4dp" align="center">{{crimeMap.heading}}</h2>
     <a href="{{crimeMap.link}}"><img id="crime-img" src="https://s3-us-west-2.amazonaws.com/sojuheroku/soju-crime.jpg"></a>
-    <p>{{crimeMap.body}}</p> 
+    <p align="center">{{crimeMap.body}}</p> 
     <a href="{{crimeMap.github}}"><i class="hover fa fa-github-square fa-3x"></i></a>
   </div>
 </div>
@@ -36,13 +36,13 @@
       <h5 class="card-title mdl-color--accent mdl-shadow--4dp" align="center">{{myCard[0].heading}}</h5>
     </div>
     <a align="center" href="{{myCard[0].link}}"><img class="card-content-image" src="https://s3-us-west-2.amazonaws.com/sojuheroku/MB+Maker/mb-preview.JPG"></a>
-    <p class="card-body-text"><a href="http://forums.anarchy-online.com/showthread.php?611805-Soju-s-Multiboxing-Guide">Multibox Script maker for Anarchy Online. </a> *stack* AngularJS, Google Material Design, Rails, Heroku</p> 
+    <p align="center" class="card-body-text"><a href="http://forums.anarchy-online.com/showthread.php?611805-Soju-s-Multiboxing-Guide">Multibox Script maker for Anarchy Online. </a> *stack* AngularJS, Google Material Design, Rails, Heroku</p> 
     <a class="card-git" href="{{myCard[0].github}}"><i class="hover fa fa-github-square"></i></a>
   </div>
   <div class="{{cardStyle}}">
     <h5 class="card-title mdl-color--accent mdl-shadow--4dp" align="center">{{myCard[1].heading}}</h5>
     <a align="center" href="{{myCard[1].link}}"><img class="card-content-image" src="https://s3-us-west-2.amazonaws.com/sojuheroku/fizzbuzz.jpg"></a>
-    <p class="card-body-text"><a href="http://c2.com/cgi/wiki?FizzBuzzTest">Fizz Buzz</a>with a twist! practice with css Parallax Scrolling. Font style and color are randomized each refresh. *stack* Twitter Bootstrap, Rails, Heroku</p> <br>
+    <p align="center" class="card-body-text"><a href="http://c2.com/cgi/wiki?FizzBuzzTest">Fizz Buzz</a>with a twist! practice with css Parallax Scrolling. Font style and color are randomized each refresh. *stack* Twitter Bootstrap, Rails, Heroku</p> <br>
     <a class="card-git" href="{{myCard[1].github}}"><i class="hover fa fa-github-square"></i></a>
   </div>
 </div>
@@ -51,13 +51,13 @@
   <div class="{{cardStyle}}">
     <h5 class="card-title mdl-color--accent mdl-shadow--4dp" align="center">{{myCard[2].heading}}</h5>
     <a align="center" href="{{myCard[2].link}}"><img class="card-content-image" src="https://s3-us-west-2.amazonaws.com/sojuheroku/soju-todo.jpg"></a>
-    <p class="card-body-text">{{myCard[2].body}}</p><br>
+    <p align="center" class="card-body-text">{{myCard[2].body}}</p><br>
     <a class="card-git" href="{{myCard[2].github}}"><i class="hover fa fa-github-square"></i></a>
   </div>
   <div class="{{cardStyle}}">
     <h5 class="card-title mdl-color--accent mdl-shadow--4dp" align="center">{{myCard[3].heading}}</h5>
     <a align="center" href="{{myCard[3].link}}"><img class="card-content-image" src="https://s3-us-west-2.amazonaws.com/sojuheroku/old-portfolio.jpg"></a>
-    <p class="card-body-text">{{myCard[3].body}}</p> 
+    <p align="center" class="card-body-text">{{myCard[3].body}}</p> 
     <a class="card-git" href="{{myCard[3].github}}"><i class="hover fa fa-github-square"></i></a>
   </div>
 </div>
@@ -99,7 +99,7 @@ angular.module('myApp', [])
 
     $scope.myInfo = {
       heading:'Frank Yi', 
-      body:'Hello, im Frank I am a web developer, welcome to my portfolio site.  My stack includes, Material Design, AngularJS, Ruby on Rails, PostgresSql. I host my projects on Heroku.  I use Amazon s3 for storage.', 
+      body:'Hello im Frank, welcome to my portfolio site.  My stack includes HTML5, CSS3, AngularJS, Ruby on Rails, PostgresSql. I host my projects on Heroku.  I use Amazon s3 for storage.', 
       github:'https://www.github.com/sojufrank', 
       linkedin:'https://www.linkedin.com/pub/frank-yi/45/a06/60b', 
       wordpress:'https://seattlekkf.wordpress.com'

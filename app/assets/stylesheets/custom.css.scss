@@ -1,0 +1,81 @@
+.demo-header {
+	height:150px
+}
+.demo-content {
+	position:relative;
+}
+
+body, main {
+	background: url("/city-color.png") no-repeat center fixed;
+	background-color:#bcdee7;
+	background-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:black;
+	opacity:.87;
+}
+p {
+	color:black;
+	opacity:.57;
+}
+    
+#frank-img {
+	width:70px; 
+	border-radius:50px;
+	position:absolute; 
+	top:-4%;
+	right:-4%;
+}
+
+#crime-img {
+	max-width:100%; 
+	max-height:100%;
+	border-radius:5px;
+}
+
+.card-content-image {
+	border-radius:2px;
+	max-width:95%; 
+	max-height:100%;
+}
+
+.card-git {
+	position:absolute; 
+	bottom:5%; 
+	left:5%;
+}
+
+.hover {
+	color:black;
+	opacity:.87;
+}
+
+.hover:hover {
+	color:black;
+	opacity:.20;
+}
+.card-body-text {
+	margin-top:2%;
+	margin-left:5%;
+	margin-right:5%;
+}
+.my-info {
+	position:relative;
+	border-radius:3px;
+	color:white;
+	opacity:.87;
+	font-family: 'Lato', sans-serif;
+}
+.crime-title {
+	border-radius:3px;
+	color:white;
+	opacity:.87;
+}
+.card-title {
+	margin-left:5%;
+	margin-right:5%;
+	border-radius:3px;
+	color:white;
+	opacity:.87;
+}

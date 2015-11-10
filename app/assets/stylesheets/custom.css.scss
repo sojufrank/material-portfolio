@@ -6,9 +6,18 @@
 }
 
 body, main {
-	background: url("/city-color.png") no-repeat center fixed;
-	background-color:#bcdee7;
-	background-size: 100%;
+background: rgba(179,229,252,1);
+background: -moz-linear-gradient(left, rgba(179,229,252,1) 0%, rgba(79,194,247,0.87) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,229,252,1)), color-stop(100%, rgba(79,194,247,0.87)));
+background: -webkit-linear-gradient(left, rgba(179,229,252,1) 0%, rgba(79,194,247,0.87) 100%);
+background: -o-linear-gradient(left, rgba(179,229,252,1) 0%, rgba(79,194,247,0.87) 100%);
+background: -ms-linear-gradient(left, rgba(179,229,252,1) 0%, rgba(79,194,247,0.87) 100%);
+background: linear-gradient(to right, rgba(179,229,252,1) 0%, rgba(79,194,247,0.87) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3e5fc', endColorstr='#4fc2f7', GradientType=1 );
+	// background: url("/bg.jpg") no-repeat center fixed;
+	// background-color:#bcdee7;
+	 background-size: 100%;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
